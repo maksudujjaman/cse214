@@ -2,7 +2,7 @@
 CSE 214 Data Structure Laboratory
 
 ## Problem Set 01 Part 01
-```
+
 => Array Declaretion
 
 => Array Initializetion
@@ -13,4 +13,3 @@ CSE 214 Data Structure Laboratory
 
 => Array Output
 
-```
