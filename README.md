@@ -1,7 +1,7 @@
 # cse214
 CSE 214 Data Structure Laboratory
 
-## Problem Set 01 Part 01
+## [Problem Set 01 Part 01](https://github.com/1915002517/cse214/tree/main/Problem%20Set%2001)
 
 * Array Declare
 
