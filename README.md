@@ -3,13 +3,25 @@ CSE 214 Data Structure Laboratory
 
 ## Problem Set 01 Part 01
 
-=> Array Declaretion
+* Array Declare
 
-=> Array Initializetion
+* Array Initialize
 
-=> Array Access
+* Array Access
 
-=> Array Input 
+* Array Input 
 
-=> Array Output
+* Array Output
+
+
+## Problem Set 02 Part 02
+
+* Array Insert
+
+* Array Update
+
+* Array Search
+
+* Array Delete 
+
 
