@@ -14,7 +14,7 @@ CSE 214 Data Structure Laboratory
 * Array Output
 
 
-## Problem Set 02 Part 02
+## [Problem Set 02 Part 02](https://github.com/1915002517/cse214/tree/main/Problem%20Set%2002)
 
 * Array Insert
 
