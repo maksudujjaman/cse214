@@ -21,7 +21,7 @@ int main()
          }
       }
 
-/*    while((scanf("%d",&a[i]))==EOF)
+/*    while((scanf("%d",&a[i]))!=EOF)
       {
          i++;
          if(i>=max_size)
@@ -30,7 +30,7 @@ int main()
          }
       } */
 
-/*    while((scanf("%d",&a[i]))==-1)
+/*    while((scanf("%d",&a[i]))!=-1)
       {
          i++;
          if(i>=max_size)
