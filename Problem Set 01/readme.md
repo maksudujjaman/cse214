@@ -1,6 +1,6 @@
 # Array Declaration
 
-```
+```c
 int a[10]; /* "a" is integer data type array and 10 is the maximum number of value/element/items can be stored in "a" array. */
 ```
 # Array Initialization
@@ -41,7 +41,7 @@ for(i = 0; i<size; i++)
 }
 ```
 # Printing an Array in Reverse Order
-```
+```c
 
     for(i=0;i<size/2;i++) /// array reversed during half loop is complete
     {
