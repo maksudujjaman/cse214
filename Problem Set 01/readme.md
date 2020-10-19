@@ -2,6 +2,18 @@
 
 ```c
 int a[10]; /* "a" is integer data type array and 10 is the maximum number of value/element/items can be stored in "a" array. */
+double a[10]; /* "a" is double data type array and 10 is the maximum number that can be stored in "a" array. */
+float a[10];/* "a" is double data type array and 10 is the maximum number that can be stored in "a" array. */
+char a[10];/* "a" is character data type array and 10 is the maximum number of characters can be stored in "a" array. */
+int a[]; /* Invalid Decleration. */
+```
+# Different Types of Variable & Array Decleration 
+```c
+int N ; /// variable declaration--int data type
+int size = 10 ; /// variable declaration & initialization--int data type
+float N ; /// variable declaration--float data type
+double N ;/// variable declaration--double data type
+char N ;/// variable declaration--char data type
 ```
 # Array Initialization
 
