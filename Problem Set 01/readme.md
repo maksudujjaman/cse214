@@ -7,7 +7,7 @@ float a[10];/* "a" is double data type array and 10 is the maximum number that c
 char a[10];/* "a" is character data type array and 10 is the maximum number of characters can be stored in "a" array. */
 int a[]; /* Invalid Decleration. */
 ```
-# Different Types of Variable & Array Decleration 
+# Different Types of Variable  Decleration 
 ```c
 int N ; /// variable declaration--int data type
 int size = 10 ; /// variable declaration & initialization--int data type
