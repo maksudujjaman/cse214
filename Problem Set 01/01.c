@@ -13,9 +13,9 @@ int main()
     scanf("%d",&N);
     ///printf("%d\n",&N);
 
-        if(N<0 || N>max_size)
+        if(N>max_size)
         {
-            printf("!! Invalid !! Try Again\n\n");
+            printf("!!Array Overflow!!\n");
         }
 
         else
@@ -24,10 +24,6 @@ int main()
                 {
                   size++;
                   scanf("%d",&a[i]);
-                }
-             if(size>max_size)
-                {
-                  printf("!!Array Overflow!!\n\n");
                 }
         }
 
