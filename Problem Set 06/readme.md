@@ -66,3 +66,36 @@ void print_single_node(node *temp)
      }
  }
  ```
+ 
+ # [Use DMA to create three elements of the Linked List and display(only value) the complete linked list & Check Empty List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/04.c)
+```c
+    temp = (node*)malloc(sizeof (node));
+    temp->data = 10;
+    temp->next = (node*)malloc(sizeof (node));
+    head = temp;
+
+    temp = temp->next;
+    temp->data = 15;
+    temp->next = (node*)malloc(sizeof (node));
+
+    temp = temp->next;
+    temp->data = 20;
+    temp->next = NULL;
+    
+    void print_all_node(node *temp)
+ {
+    if(temp == NULL)
+     {
+       printf("\n!!Linked List Empty!!\n");
+     }
+
+    else
+     {
+        while(temp != NULL)
+         {
+           printf("%d \t %d \t %d \n\n",temp, temp->data, temp->next);
+           temp = temp->next;
+         }
+     }
+ }
+```
