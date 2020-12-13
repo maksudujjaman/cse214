@@ -48,10 +48,21 @@ int main()
         head = head->next;
     }
   ```
-# [Define function to print Single Node of Linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/02.c)
+# [Define a  function to print Single Node (Address, Value and Next address) of the Linked List of Linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/02.c)
 ```c
 void print_single_node(node *temp)
  {
    printf("%d \t %d \t %d \n\n",temp, temp->data, temp->next);
+ }
+ ```
+ # [Define a function to display complete Linked List(Only Value Of Each Node)](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/03.c)
+ ```c
+ void print_all_node(node *temp)
+ {
+    while(temp != NULL)
+     {
+       printf("%d \t %d \t %d \n\n",temp, temp->data, temp->next);
+       temp = temp->next;
+     }
  }
  ```
