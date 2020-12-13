@@ -1,4 +1,4 @@
-/* 07. Implement a ìClearî function to delete the all the element of the Linked List
+/* 07. Implement a ‚ÄúClear‚Äù function to delete the all the element of the Linked List
 
    Name : Maksudujjaman
    ID   : 1915002517
@@ -48,7 +48,7 @@ node *clear(node *temp)
      free(prev);
     }
 
-    return NULL; // sob delete hoye gale head ta "NULL" hoye jabe
+    return NULL; 
  }
 
 node *create_linked_list()
