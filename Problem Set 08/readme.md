@@ -158,6 +158,7 @@ node *delete_before(node *temp, int value)
 }
 ```
 # [Implement a "Delete After" function (Check underflow and index out of range)](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2008/06.c)
+## First sesrch the Position of the Element
 ```c
 int search(node *temp, int key)
  {
@@ -175,9 +176,8 @@ int search(node *temp, int key)
     return -1;
  }
  ```
-# First sesrch the Position of the Element
 
-# Then Delete the Position After Element
+## Then Delete the Position After Element
 ```c
 print_list(head);
 
@@ -242,6 +242,6 @@ node *clear(node *temp)
      free(prev);
     }
 
-    return NULL; // sob delete hoye gale head ta "NULL" hoye jabe
+    return NULL; 
  }
  ```
