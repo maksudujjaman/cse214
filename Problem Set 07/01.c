@@ -1,5 +1,4 @@
-/* 01. Define a "Create" function to declare a Linked List with four node using dynamic memory allocation.
-       Print the complete Linked List after calling create function.
+/* 01. Define a "Create" function to declare a Linked List with four node using dynamic memory allocation. Print the complete Linked List after calling create function.
 
    Name : Maksudujjaman
    ID   : 1915002517
