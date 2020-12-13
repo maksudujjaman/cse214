@@ -1,5 +1,4 @@
-/* Define a function to print single node (Address, Value,and Next address) of the Linked List
-   and do the same as problem 1.(Use 'typedef' keyword ,Don't use DMA).
+/* Define a function to print single node (Address, Value,and Next address) of the Linked List and do the same as problem 1.(Use 'typedef' keyword ,Don't use DMA).
 
    Name : Maksudujjaman
    ID   : 1915002517
