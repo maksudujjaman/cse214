@@ -28,8 +28,6 @@ typedef struct Structure_Name New_DataType_Name;
     struct Node *next;  //next node address declare
 };
 
-int main()
-{
     struct node a, b, c;   //structure decleration
     struct Node *head = &a; /// hold First Node_address into a pointer named head for accessing
 
@@ -69,6 +67,7 @@ void print_single_node(node *temp)
  
  # [Use DMA to create three elements of the Linked List and display(only value) the complete linked list & Check Empty List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/04.c)
 ```c
+
     temp = (node*)malloc(sizeof (node));
     temp->data = 10;
     temp->next = (node*)malloc(sizeof (node));
@@ -99,3 +98,40 @@ void print_single_node(node *temp)
      }
  }
 ```
+
+# [Define a Recursive function to display complete Linked List(Only Value Of Each Node)](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/05.c)
+```c
+ if(is_empty(head) == 1)
+     {
+       printf("!!Linked List is Empty!!\n");
+     }
+    else if(!is_empty(head))
+     {
+       print_all_node_recur(head);
+       printf("\n");
+     }
+```     
+```c
+     int is_empty(node *temp)
+  {
+    if(temp == NULL)
+     {
+       return 1;
+     }
+    else
+     {
+       return 0;
+     }
+  }
+```
+```c
+void print_all_node_recur(node *temp)
+ {
+
+    if(temp != NULL)
+     {
+       printf("%d ",temp->data);
+       print_all_node_recur(temp->next);
+     }
+ }
+ ```
