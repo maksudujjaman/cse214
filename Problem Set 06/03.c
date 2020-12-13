@@ -1,4 +1,4 @@
-/* Define a function to display(only value for each node)the complete linked list and do the same as problem 1(Don't use DMA).
+/* 03. Define a function to display(only value for each node)the complete linked list and do the same as problem 1(Don't use DMA).
 
    Name : Maksudujjaman
    ID   : 1915002517
