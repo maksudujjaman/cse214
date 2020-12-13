@@ -1,12 +1,12 @@
-#Define, Create, Initialization & Decleration Basic patterns[For Structure & LinkedList]:(https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/01.c)
-'''c
+# [Define, Create, Initialization & Decleration Basic patterns[For Structure & LinkedList]]:(https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/01.c)
+```c
 //Structure Definition:
 struct Structure_Name {
     dataType Variable_Name;
     dataType Variable_Name;
     ...       ...
 };
-'''
+```c
 // Structure  Declaration:
 struct Structure_Name Variable_Name;
 
