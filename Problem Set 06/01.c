@@ -1,5 +1,4 @@
-/* Define a Structure for linked list Node,Declare three variable, Assign value and next address
-   in those variable. Print the variable address, value and next variable address.
+/* Define a Structure for linked list Node,Declare three variable, Assign value and next address in those variable. Print the variable address, value and next variable address.
    (Don't use any function, "typedef"keyword and Dynamic Memory Allocation(DMA)).
 
    Name : Maksudujjaman
