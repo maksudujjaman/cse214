@@ -25,11 +25,12 @@ CSE 214 Data Structure Laboratory
 * Array Delete 
 
 ## [Problem Set 06](https://github.com/1915002517/cse214/tree/main/Problem%20Set%2006)
+
 * Linked List Basic Operations [Single Way(Singly)Linked list]:
 * Linked list Create
 * Linked list Decleration
 * Linked list Initialization
 * Linked list Access
 * Linked list Traverse
-* Linked list Output
+* Linked list Output Output
 
