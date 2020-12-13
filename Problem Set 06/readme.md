@@ -1,4 +1,4 @@
-# [Define, Create, Initialization & Decleration Basic patterns(For Structure & LinkedList):]
+# Define, Create, Initialization & Decleration Basic patterns(For Structure & LinkedList):
 ```c
 //Structure Definition:
 struct Structure_Name {
