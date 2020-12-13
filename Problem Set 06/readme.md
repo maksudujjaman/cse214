@@ -48,3 +48,10 @@ int main()
         head = head->next;
     }
   ```
+# [Define function to print Single Node of Linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/02.c)
+```c
+void print_single_node(node *temp)
+ {
+   printf("%d \t %d \t %d \n\n",temp, temp->data, temp->next);
+ }
+ ```
