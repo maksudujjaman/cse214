@@ -109,7 +109,7 @@ void print_list_n(node *temp, int pos)
    printf("\n");
  }
 ```
-# [Define a "Search" function to find a 'key' (take input 'key' from user). Print "Found" if the search 'key' is found otherwise "Not Found"](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/07.c)
+# [Define a "Search" function to find a 'key' (take input 'key' from user) Print "Found" if the search 'key' is found otherwise "Not Found"](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/07.c)
 ```c
 void find_key(node *temp, int key)
  {
@@ -134,3 +134,134 @@ void find_key(node *temp, int key)
         }
  }
  ```
+# [Define a "Search" function to find a 'key' (take input 'key' from user)Return the position of the node if the search 'key' is found otherwise return -1](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/08.c)
+```c
+int pos = search(head,key);
+
+       if(pos == -1)
+        {
+          printf("\n-1\n");
+        }
+
+       else
+        {
+         printf("\nPosition : %d\n",pos);
+        }
+```
+```c
+int search(node *temp, int key)
+ {
+   int pos = 1;
+   while(temp)
+    {
+        if(temp->data == key)
+         {
+           return pos;
+         }
+      pos++;
+      temp = temp->next;
+    }
+
+    return -1;
+ }
+```
+# [Define a function to reverse the Linked List(Without using recursion)](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/09.c)
+```c
+node *reverse_list(node* list1)
+{
+    node *first, *current, *temp;
+    first = list1;
+    current = list1->next;
+    first->next = NULL;
+
+    while(current)
+    {
+        temp = current->next;
+        current->next = first;
+        first = current;
+        current = temp;
+    }
+    return first;
+}
+```
+# [Define a function to reverse the Linked List using a recursive function](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/10.c)
+```c
+void print_list_reverse(node *temp)
+{
+    if (temp != NULL) {
+        print_list_reverse(temp->next);
+        printf("%d ", temp->data);
+    }
+}
+```
+# [Copy a linked List into another linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/11.c)
+```c
+node *copy_list(node *list1)
+ {
+    node *head2, *temp;
+    temp = (node*)malloc(sizeof(node));
+    temp->data = list1->data;
+    temp->next = NULL;
+    head2 = temp;
+    list1 = list1->next;
+    while (list1)
+    {
+        temp->next = (node*)malloc(sizeof(node));
+        temp = temp->next;
+        temp->data = list1->data;
+        temp->next = NULL;
+        list1 = list1->next;
+    }
+    return head2;
+ }
+```
+# [Copy a Linked List into another Linked List with a recursive function](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/12.c)
+```c
+node *copy_list_recursive(node *list1)
+{
+    if(list1 == NULL)
+    {
+        return NULL;
+    }
+    node *temp = (node*)malloc(sizeof(node));
+    temp->data = list1->data;
+    temp->next = copy_list_recursive(list1->next);
+
+    return temp;
+}
+```
+# [Define a function to merge two Linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/13.c)
+```c
+node *merge_list(node *list1, node *list2)
+{
+    node *head, *temp, *new_node;
+
+    head = copy_list(list1);
+
+    temp = head;
+
+    while(temp->next)
+    {
+        temp = temp->next;
+    }
+    temp->next = copy_list(list2);
+
+    return head;
+}
+```
+# [Define a function to merge two sorted Linked List into a sorted Linked List](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2007/14.c)
+```c
+node *merge_list(node *list1, node *list2)
+{
+    node *head, *temp, *new_node;
+
+    head = create_list1(list1);
+    temp = head;
+
+    while(temp -> next)
+    {
+        temp = temp -> next;
+    }
+    temp -> next = create_list2(list2);
+    return head;
+```
