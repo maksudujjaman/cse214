@@ -27,7 +27,8 @@ typedef struct Structure_Name New_DataType_Name;
     int value;   //value declare
     struct Node *next;  //next node address declare
 };
-
+```
+```c
     struct node a, b, c;   //structure decleration
     struct Node *head = &a; /// hold First Node_address into a pointer named head for accessing
 
@@ -39,7 +40,8 @@ typedef struct Structure_Name New_DataType_Name;
 
     c.value = 20;  ///value assign in node
     c.next = NULL;  ///last node is defined if next address is assigned with NULL.
-
+```
+```c
     while(head != NULL)
     {
         printf("%p \t %d \t %p\n", head, head->value, head->next);
@@ -80,7 +82,8 @@ void print_single_node(node *temp)
     temp = temp->next;
     temp->data = 20;
     temp->next = NULL;
-    
+```
+```c
     void print_all_node(node *temp)
  {
     if(temp == NULL)
@@ -135,3 +138,42 @@ void print_all_node_recur(node *temp)
      }
  }
  ```
+# [Define a Recursive function to display complete Linked List in Reverse Order(Only Value Of Each Node)](https://github.com/1915002517/cse214/blob/main/Problem%20Set%2006/06.c)
+```c
+    if(is_empty(head) == 1)
+     {
+       printf("!!Linked List is Empty!!\n");
+     }
+    else if(!is_empty(head))
+     {
+       print_all_node_rev_recur(head);
+       printf("\n");
+     }
+
+    return 0;
+}
+```
+```c
+int is_empty(node *temp)
+  {
+    if(temp == NULL)
+     {
+       return 1;
+     }
+    else
+     {
+       return 0;
+     }
+  }
+  ```
+  ```c
+void print_all_node_rev_recur(node *temp)
+ {
+
+    if(temp != NULL)
+     {
+       print_all_node_rev_recur(temp->next);
+       printf("%d ",temp->data);
+     }
+ }
+```
