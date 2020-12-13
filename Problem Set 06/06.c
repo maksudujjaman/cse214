@@ -1,4 +1,4 @@
-/* Define a function to display the complete linked list in reverse order with a recursive function using problem-04.
+/* 06. Define a function to display the complete linked list in reverse order with a recursive function using problem-04.
 
    Name : Maksudujjaman
    ID   : 1915002517
