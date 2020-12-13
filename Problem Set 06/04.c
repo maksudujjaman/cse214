@@ -1,5 +1,4 @@
-/* Use Dynamic Memory Allocation to create three elements of the Linked List and display(only value)
-   the complete linked list using a function(check Empty list).
+/* Use Dynamic Memory Allocation to create three elements of the Linked List and display(only value) the complete linked list using a function(check Empty list).
 
    Name : Maksudujjaman
    ID   : 1915002517
