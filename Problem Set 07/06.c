@@ -83,12 +83,14 @@ node *create_list()
 void print_list_n(node *temp, int pos)
  {
    int n =1;
+   node *prev;
    while(n <= pos)
     {
-      printf("%d ",temp->data);
+      prev = temp;
       temp = temp->next;
       n++;
     }
+   printf("%d ",prev->data);
    printf("\n");
  }
 
